@@ -1,0 +1,1236 @@
+{
+  "schema": 1,
+  "recorded_at": "2026-11-03T16:52:48Z",
+  "delivery_run_id": "9d5758a4-7b8d-4b27-92fa-c0c292429e1b",
+  "agent": "pi-coding-agent",
+  "agent_start": "2026-11-03T16:38:50Z",
+  "agent_stop": "2026-11-03T16:52:48Z",
+  "provider": "deepseek",
+  "model": "deepseek-flash",
+  "turns": 71,
+  "messages": 166,
+  "billed_messages": 71,
+  "tokens": {
+    "input": 43607,
+    "output": 61330,
+    "cache_read": 3493632,
+    "cache_write": 0,
+    "total": 3598569
+  },
+  "reported_cost": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total": 0
+  },
+  "measurements": [
+    {
+      "measurement_key": "pi:1793723934830:ad9d618a-c6b5-449c-85f1-2d318d477d3a",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 3110,
+      "output_tokens": 138,
+      "cache_read_tokens": 1920,
+      "cache_write_tokens": 0,
+      "total_tokens": 5168,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723936219:d425e510-ef83-489a-b184-23b522ec3a1b",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 372,
+      "output_tokens": 184,
+      "cache_read_tokens": 5120,
+      "cache_write_tokens": 0,
+      "total_tokens": 5676,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723937935:0a76e718-3a02-4b22-adc5-502ba7f2e62d",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 246,
+      "output_tokens": 368,
+      "cache_read_tokens": 5632,
+      "cache_write_tokens": 0,
+      "total_tokens": 6246,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723940661:5cb0e757-d9c0-499c-84f3-c8fab8f0b0b6",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 192,
+      "output_tokens": 160,
+      "cache_read_tokens": 6144,
+      "cache_write_tokens": 0,
+      "total_tokens": 6496,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723942153:d4e437e1-9317-40e0-bdd4-ded1c673b188",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 1038,
+      "output_tokens": 660,
+      "cache_read_tokens": 6400,
+      "cache_write_tokens": 0,
+      "total_tokens": 8098,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723946994:04c5dd64-3e6a-401e-9746-112cf35c7400",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 181,
+      "output_tokens": 170,
+      "cache_read_tokens": 8064,
+      "cache_write_tokens": 0,
+      "total_tokens": 8415,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723948984:ec638ee8-3324-4c32-bb21-ea440f17fbab",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 444,
+      "output_tokens": 231,
+      "cache_read_tokens": 8320,
+      "cache_write_tokens": 0,
+      "total_tokens": 8995,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723951024:96b092a7-8ca6-4998-8b78-f2490eb3e205",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 258,
+      "output_tokens": 209,
+      "cache_read_tokens": 8960,
+      "cache_write_tokens": 0,
+      "total_tokens": 9427,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723953243:b092eb6b-852d-4dab-a150-a9b3e8b04b3b",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 230,
+      "output_tokens": 91,
+      "cache_read_tokens": 9216,
+      "cache_write_tokens": 0,
+      "total_tokens": 9537,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723954875:66814200-b070-4737-9d24-521ad0ad1f38",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 833,
+      "output_tokens": 214,
+      "cache_read_tokens": 9472,
+      "cache_write_tokens": 0,
+      "total_tokens": 10519,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723956527:3853a4b8-a43c-42ad-a777-aa88a574d4d3",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 311,
+      "output_tokens": 197,
+      "cache_read_tokens": 10496,
+      "cache_write_tokens": 0,
+      "total_tokens": 11004,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723958150:1a85d59d-ca72-4e09-90af-89654ed2e12e",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 330,
+      "output_tokens": 552,
+      "cache_read_tokens": 10880,
+      "cache_write_tokens": 0,
+      "total_tokens": 11762,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723961550:2dc4111b-2df1-4944-b7c9-2fbbb3c05f59",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 395,
+      "output_tokens": 295,
+      "cache_read_tokens": 11648,
+      "cache_write_tokens": 0,
+      "total_tokens": 12338,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723963876:f58ac867-112b-4882-a0b5-5f9d875a29c4",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 3466,
+      "output_tokens": 156,
+      "cache_read_tokens": 12288,
+      "cache_write_tokens": 0,
+      "total_tokens": 15910,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723965483:b15df3ec-ad95-4193-985f-d898157b19fa",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 251,
+      "output_tokens": 716,
+      "cache_read_tokens": 15872,
+      "cache_write_tokens": 0,
+      "total_tokens": 16839,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723989365:6b7887a4-d23f-44d7-9e6f-d8135e672b1f",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 652,
+      "output_tokens": 323,
+      "cache_read_tokens": 16768,
+      "cache_write_tokens": 0,
+      "total_tokens": 17743,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793723992263:bdcc4bcf-a52b-46d2-9d89-c55a6eef17d8",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 249,
+      "output_tokens": 2486,
+      "cache_read_tokens": 17664,
+      "cache_write_tokens": 0,
+      "total_tokens": 20399,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724010063:232794c8-558c-4461-a914-8e871c1a2fe5",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 813,
+      "output_tokens": 177,
+      "cache_read_tokens": 20352,
+      "cache_write_tokens": 0,
+      "total_tokens": 21342,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724011891:751e4799-19b6-4601-820f-f4b2402cae88",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 315,
+      "output_tokens": 322,
+      "cache_read_tokens": 21248,
+      "cache_write_tokens": 0,
+      "total_tokens": 21885,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724014898:d4e08087-bbb5-4267-a553-5eccd9e703d6",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 1852,
+      "output_tokens": 123,
+      "cache_read_tokens": 21760,
+      "cache_write_tokens": 0,
+      "total_tokens": 23735,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724016424:172a742a-4c98-41e5-8798-c7bcc732debd",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 197,
+      "output_tokens": 81,
+      "cache_read_tokens": 23552,
+      "cache_write_tokens": 0,
+      "total_tokens": 23830,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724017938:1ad7da55-fa03-4877-90f6-c90edd3a56f9",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 373,
+      "output_tokens": 346,
+      "cache_read_tokens": 23808,
+      "cache_write_tokens": 0,
+      "total_tokens": 24527,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724020852:fb38235d-de4b-42c6-bc1d-c511f5e3a373",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 414,
+      "output_tokens": 339,
+      "cache_read_tokens": 24448,
+      "cache_write_tokens": 0,
+      "total_tokens": 25201,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724023255:66843f6d-a3df-4fc7-a41d-599927d352d5",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 2343,
+      "output_tokens": 147,
+      "cache_read_tokens": 25088,
+      "cache_write_tokens": 0,
+      "total_tokens": 27578,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724024890:47b33ff6-c16c-4c71-abc8-a296a73f4595",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 2780,
+      "output_tokens": 394,
+      "cache_read_tokens": 27520,
+      "cache_write_tokens": 0,
+      "total_tokens": 30694,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724027769:02c0a06a-c3e3-4d90-a0b2-954c06948448",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 3141,
+      "output_tokens": 285,
+      "cache_read_tokens": 30592,
+      "cache_write_tokens": 0,
+      "total_tokens": 34018,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724030561:64314e75-dbee-47ff-86e7-83322c477754",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 187,
+      "output_tokens": 91,
+      "cache_read_tokens": 33920,
+      "cache_write_tokens": 0,
+      "total_tokens": 34198,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724031799:f702f4dc-5fac-4a06-9577-e628a32a91e2",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 716,
+      "output_tokens": 95,
+      "cache_read_tokens": 34176,
+      "cache_write_tokens": 0,
+      "total_tokens": 34987,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724033085:839e0c69-b423-44f4-84d4-e81575f7b8d3",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 660,
+      "output_tokens": 507,
+      "cache_read_tokens": 34944,
+      "cache_write_tokens": 0,
+      "total_tokens": 36111,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724036553:fb7cfc5a-23fa-4939-b550-50d22e1961fc",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 1046,
+      "output_tokens": 1944,
+      "cache_read_tokens": 36096,
+      "cache_write_tokens": 0,
+      "total_tokens": 39086,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724047643:c3568aaf-1cc0-4261-a4e2-301d6be50c2a",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 653,
+      "output_tokens": 287,
+      "cache_read_tokens": 39040,
+      "cache_write_tokens": 0,
+      "total_tokens": 39980,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724049935:85b4ac23-6e06-4db7-a0eb-aad4c92c9bde",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 1148,
+      "output_tokens": 66,
+      "cache_read_tokens": 39936,
+      "cache_write_tokens": 0,
+      "total_tokens": 41150,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724051420:2203f1f1-e255-4d58-a02a-9e371d4daf8a",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 1340,
+      "output_tokens": 81,
+      "cache_read_tokens": 41088,
+      "cache_write_tokens": 0,
+      "total_tokens": 42509,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724052619:025781c0-ce03-4871-9e75-6bb7dc39bbf4",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 424,
+      "output_tokens": 3883,
+      "cache_read_tokens": 42496,
+      "cache_write_tokens": 0,
+      "total_tokens": 46803,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724074441:ff8b173a-0f07-4da5-bd53-764353ed5e0b",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 387,
+      "output_tokens": 533,
+      "cache_read_tokens": 46720,
+      "cache_write_tokens": 0,
+      "total_tokens": 47640,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724081375:9ea8e112-103e-4824-9f8e-ef257c0a3928",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 319,
+      "output_tokens": 57,
+      "cache_read_tokens": 47616,
+      "cache_write_tokens": 0,
+      "total_tokens": 47992,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724082416:ee1d043b-17eb-4c81-a5f1-ca48df22e612",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 482,
+      "output_tokens": 3767,
+      "cache_read_tokens": 47872,
+      "cache_write_tokens": 0,
+      "total_tokens": 52121,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724101697:8b725647-c967-4ef2-9516-4b4dc8d84834",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 167,
+      "output_tokens": 1221,
+      "cache_read_tokens": 51968,
+      "cache_write_tokens": 0,
+      "total_tokens": 53356,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724106946:9b8ffd3b-4338-458c-aa4e-d358e606c7ed",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "total_tokens": 0,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724129574:34ff7025-cd25-4ab5-a35e-e949c23e4151",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 206,
+      "output_tokens": 2220,
+      "cache_read_tokens": 53248,
+      "cache_write_tokens": 0,
+      "total_tokens": 55674,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724138491:832ced53-2446-48cf-8ecc-7dc6d5d0543e",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 188,
+      "output_tokens": 2354,
+      "cache_read_tokens": 55552,
+      "cache_write_tokens": 0,
+      "total_tokens": 58094,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724148504:eb8703d4-96c3-4596-95af-0e70a476bd4d",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 137,
+      "output_tokens": 1594,
+      "cache_read_tokens": 57984,
+      "cache_write_tokens": 0,
+      "total_tokens": 59715,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724154670:3977f2ec-ff30-47b4-bbca-97c7e3824da4",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 220,
+      "output_tokens": 2651,
+      "cache_read_tokens": 59520,
+      "cache_write_tokens": 0,
+      "total_tokens": 62391,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724165915:8c5b4658-74a0-4768-954b-611c94117a62",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 209,
+      "output_tokens": 4618,
+      "cache_read_tokens": 62208,
+      "cache_write_tokens": 0,
+      "total_tokens": 67035,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724185491:51137a8f-924a-4823-852e-476a5bf4a464",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 135,
+      "output_tokens": 1623,
+      "cache_read_tokens": 66944,
+      "cache_write_tokens": 0,
+      "total_tokens": 68702,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724192181:30fd9ab0-6fb0-4799-b3de-5f55b5f5a5d1",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 139,
+      "output_tokens": 1235,
+      "cache_read_tokens": 68608,
+      "cache_write_tokens": 0,
+      "total_tokens": 69982,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724198619:2faaeda4-3928-47bb-9294-52cc6d65fa42",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 530,
+      "output_tokens": 1795,
+      "cache_read_tokens": 69888,
+      "cache_write_tokens": 0,
+      "total_tokens": 72213,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724208385:eb920ed5-c6e2-41ec-a284-19751812a32e",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 163,
+      "output_tokens": 677,
+      "cache_read_tokens": 72064,
+      "cache_write_tokens": 0,
+      "total_tokens": 72904,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724211590:1a88ee08-0ee2-41be-b860-bfc9873c43cf",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 214,
+      "output_tokens": 2934,
+      "cache_read_tokens": 72704,
+      "cache_write_tokens": 0,
+      "total_tokens": 75852,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724221526:0fe32106-c6da-4d3d-9543-798cb47c2b34",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 170,
+      "output_tokens": 5255,
+      "cache_read_tokens": 75776,
+      "cache_write_tokens": 0,
+      "total_tokens": 81201,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724238350:b2505a92-df2f-4b72-ab48-7c26dd7fec9f",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 202,
+      "output_tokens": 826,
+      "cache_read_tokens": 81024,
+      "cache_write_tokens": 0,
+      "total_tokens": 82052,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724346895:c94aa666-9392-422a-8cb4-5a94fe0980c4",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 1030,
+      "output_tokens": 570,
+      "cache_read_tokens": 82048,
+      "cache_write_tokens": 0,
+      "total_tokens": 83648,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724353338:9dbe7ad6-f293-41fa-84ef-833e28f5787d",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 158,
+      "output_tokens": 180,
+      "cache_read_tokens": 83584,
+      "cache_write_tokens": 0,
+      "total_tokens": 83922,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724453385:2b4e95fe-ca81-4c8e-be53-4553df67ca0f",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 1938,
+      "output_tokens": 597,
+      "cache_read_tokens": 83840,
+      "cache_write_tokens": 0,
+      "total_tokens": 86375,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724459010:138525b8-b5f5-4e5c-aa56-9444595f1c32",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 155,
+      "output_tokens": 318,
+      "cache_read_tokens": 86272,
+      "cache_write_tokens": 0,
+      "total_tokens": 86745,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724467953:736b27a5-557b-4fa8-ad07-b14554fb6f15",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 325,
+      "output_tokens": 233,
+      "cache_read_tokens": 86656,
+      "cache_write_tokens": 0,
+      "total_tokens": 87214,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724694184:c4080e69-6d27-4d46-8a6f-897e30fde48c",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 457,
+      "output_tokens": 218,
+      "cache_read_tokens": 87168,
+      "cache_write_tokens": 0,
+      "total_tokens": 87843,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724699283:fbe025e0-f452-40d8-82b2-6d5e02d74700",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 329,
+      "output_tokens": 188,
+      "cache_read_tokens": 87808,
+      "cache_write_tokens": 0,
+      "total_tokens": 88325,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724701256:7d5b414a-e030-42ed-b2f7-6f8cdb2a3e88",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 193,
+      "output_tokens": 514,
+      "cache_read_tokens": 88320,
+      "cache_write_tokens": 0,
+      "total_tokens": 89027,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724704515:277745e2-33b5-48bf-ad34-125749e01439",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 467,
+      "output_tokens": 396,
+      "cache_read_tokens": 88960,
+      "cache_write_tokens": 0,
+      "total_tokens": 89823,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724707264:8c69ac90-2058-4f04-baa4-1ebc91746048",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 363,
+      "output_tokens": 103,
+      "cache_read_tokens": 89728,
+      "cache_write_tokens": 0,
+      "total_tokens": 90194,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724709078:e013289f-3718-479d-842c-b18e351621fa",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 836,
+      "output_tokens": 108,
+      "cache_read_tokens": 90112,
+      "cache_write_tokens": 0,
+      "total_tokens": 91056,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724710419:ba4e9a5e-1d6a-42f1-9694-6c2826dea8f9",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 230,
+      "output_tokens": 785,
+      "cache_read_tokens": 90880,
+      "cache_write_tokens": 0,
+      "total_tokens": 91895,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724716247:e270c5b6-66f7-4cbe-a3b1-1081236874f7",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 169,
+      "output_tokens": 3186,
+      "cache_read_tokens": 91776,
+      "cache_write_tokens": 0,
+      "total_tokens": 95131,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724737372:3ca95534-cdd8-478a-80ed-2af826053263",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 479,
+      "output_tokens": 1031,
+      "cache_read_tokens": 95104,
+      "cache_write_tokens": 0,
+      "total_tokens": 96614,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724742949:0749b1d7-2fde-4f03-b496-8137a5310d2e",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 140,
+      "output_tokens": 185,
+      "cache_read_tokens": 96512,
+      "cache_write_tokens": 0,
+      "total_tokens": 96837,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724746461:e939c6ac-85e1-43ab-8d82-43d0b9cb20ed",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 297,
+      "output_tokens": 586,
+      "cache_read_tokens": 96768,
+      "cache_write_tokens": 0,
+      "total_tokens": 97651,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724750931:5d8761d9-0661-45ed-8945-dc48fe183088",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 220,
+      "output_tokens": 223,
+      "cache_read_tokens": 97536,
+      "cache_write_tokens": 0,
+      "total_tokens": 97979,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724752899:c840c357-70e1-4622-a72a-147bbfa765a6",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 222,
+      "output_tokens": 286,
+      "cache_read_tokens": 97792,
+      "cache_write_tokens": 0,
+      "total_tokens": 98300,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724755472:91e05f07-e999-41c5-bf24-010cf45e7b1b",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 531,
+      "output_tokens": 1423,
+      "cache_read_tokens": 98176,
+      "cache_write_tokens": 0,
+      "total_tokens": 100130,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    },
+    {
+      "measurement_key": "pi:1793724764953:3f516443-8c0c-4f5d-8e25-67dcd943fda8",
+      "provider": "deepseek",
+      "provider_model": "deepseek-flash",
+      "input_tokens": 240,
+      "output_tokens": 522,
+      "cache_read_tokens": 99968,
+      "cache_write_tokens": 0,
+      "total_tokens": 100730,
+      "reported_cost": {
+        "input": 0,
+        "output": 0,
+        "cache_read": 0,
+        "cache_write": 0,
+        "total": 0
+      }
+    }
+  ]
+}

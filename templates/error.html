@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Something went wrong &middot; Store App{% endblock %}
+
+{% block content %}
+<main class="message-page">
+  <section class="message-card">
+    <p class="eyebrow">Something went wrong</p>
+    <h1>We could not finish that request</h1>
+    <p>{{ message }}</p>
+    <a class="button" href="/">Back to setup <span aria-hidden="true">&rarr;</span></a>
+  </section>
+</main>
+{% endblock %}
