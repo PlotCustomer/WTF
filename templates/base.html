@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>{% block title %}Store App{% endblock %}</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Store App home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="presentation">
+            <path d="M4 10.5 5.6 4h12.8L20 10.5M5 10.5h14M6.5 10.5V20h11v-9.5M10 20v-5h4v5"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>Store App</strong>
+          <small>Store operations</small>
+        </span>
+      </a>
+      <span class="status-pill"><span class="status-dot" aria-hidden="true"></span> Setup workspace</span>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer class="site-footer">
+      <span>Store App &middot; Store operations</span>
+      <span>Franchisees and stores, set up in one place.</span>
+    </footer>
+  </div>
+</body>
+</html>

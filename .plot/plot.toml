@@ -1,0 +1,20 @@
+schema = 1
+
+[tools]
+rust = "1.99.1"
+
+[services.db]
+protocol = "postgres"
+provider = "plot"
+sizing = "small"
+
+[server]
+protocol = "https"
+port = 3000
+
+[tasks]
+install = "cargo fetch"
+build = "cargo build --release"
+start = "scripts/start.sh"
+check = "cargo check --all-targets"
+test = "cargo test"

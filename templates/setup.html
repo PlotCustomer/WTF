@@ -1,0 +1,267 @@
+{% extends "base.html" %}
+
+{% block title %}Set up your store &middot; Store App{% endblock %}
+
+{% block content %}
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Franchise onboarding</p>
+      <h1>Set up your store</h1>
+      <p class="lede">
+        Register the franchisee, then open their first store. Both records are saved
+        immediately and are ready for store operations.
+      </p>
+      <div class="hero-points" aria-label="Setup steps">
+        <span><b>1</b> Register the franchisee</span>
+        <span><b>2</b> Open the store</span>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="visual-orbit"></div>
+      <div class="visual-card">
+        <span class="visual-kicker">New store</span>
+        <strong>Ready to open</strong>
+        <span class="visual-line visual-line-long"></span>
+        <span class="visual-line"></span>
+        <span class="visual-chip">Franchisee linked</span>
+      </div>
+      <div class="visual-tag">Store setup</div>
+    </div>
+  </section>
+
+  {% if notice.is_some() %}
+  <div class="notice" role="status">
+    <span class="notice-icon" aria-hidden="true">&#10003;</span>
+    <span>{{ notice.as_ref().unwrap() }}</span>
+  </div>
+  {% endif %}
+
+  <section class="stats" aria-label="Setup summary">
+    <article class="stat">
+      <span class="stat-label">Franchisees</span>
+      <strong class="stat-value">{{ franchisee_count }}</strong>
+      <span class="stat-note">Registered in this workspace</span>
+    </article>
+    <article class="stat">
+      <span class="stat-label">Stores</span>
+      <strong class="stat-value">{{ store_count }}</strong>
+      <span class="stat-note">Opened and linked</span>
+    </article>
+    <article class="stat stat-accent">
+      <span class="stat-label">Awaiting a store</span>
+      <strong class="stat-value">{{ awaiting_store_count }}</strong>
+      <span class="stat-note">Franchisees still to open</span>
+    </article>
+  </section>
+
+  <div class="workspace">
+    <section class="panel" aria-labelledby="franchisee-heading">
+      <div class="panel-heading">
+        <span class="step">01</span>
+        <div>
+          <h2 id="franchisee-heading">Register a franchisee</h2>
+          <p>The person or company opening stores.</p>
+        </div>
+      </div>
+
+      {% if !franchisee_errors.is_empty() %}
+      <div class="alert" role="alert">
+        <strong>Check the franchisee details</strong>
+        <ul>
+          {% for error in franchisee_errors %}
+          <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      <form class="form" method="post" action="/franchisees">
+        <label class="field">
+          <span>Franchisee name</span>
+          <input
+            type="text"
+            name="name"
+            value="{{ franchisee_name }}"
+            placeholder="Corner Bakery"
+            maxlength="120"
+            autocomplete="organization"
+            required>
+        </label>
+        <label class="field">
+          <span>Email address</span>
+          <input
+            type="email"
+            name="email"
+            value="{{ franchisee_email }}"
+            placeholder="owner@example.com"
+            maxlength="254"
+            autocomplete="email"
+            required>
+        </label>
+        <button class="button" type="submit">
+          Register franchisee
+          <span aria-hidden="true">&rarr;</span>
+        </button>
+      </form>
+    </section>
+
+    <section class="panel" aria-labelledby="store-heading">
+      <div class="panel-heading">
+        <span class="step">02</span>
+        <div>
+          <h2 id="store-heading">Open a store</h2>
+          <p>Give the store a name and a place on the map.</p>
+        </div>
+      </div>
+
+      {% if !store_errors.is_empty() %}
+      <div class="alert" role="alert">
+        <strong>Check the store details</strong>
+        <ul>
+          {% for error in store_errors %}
+          <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if franchisees.is_empty() %}
+      <div class="callout">
+        <span class="callout-mark" aria-hidden="true">1</span>
+        <div>
+          <strong>Register a franchisee first</strong>
+          <p>A store needs an owner before it can be opened.</p>
+        </div>
+      </div>
+      <button class="button button-quiet" type="button" disabled>
+        Open store
+      </button>
+      {% else %}
+      <form class="form" method="post" action="/stores">
+        <label class="field">
+          <span>Franchisee</span>
+          <select name="franchisee_id" required>
+            <option value="">Select a franchisee</option>
+            {% for choice in franchisee_choices %}
+            <option value="{{ choice.id }}"{% if choice.selected %} selected{% endif %}>{{ choice.name }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label class="field">
+          <span>Store name</span>
+          <input
+            type="text"
+            name="name"
+            value="{{ store_name }}"
+            placeholder="Riverside"
+            maxlength="120"
+            autocomplete="off"
+            required>
+        </label>
+        <label class="field">
+          <span>Address</span>
+          <input
+            type="text"
+            name="address"
+            value="{{ store_address }}"
+            placeholder="12 Mill Lane, Bristol"
+            maxlength="200"
+            autocomplete="street-address"
+            required>
+        </label>
+        <button class="button" type="submit">
+          Open store
+          <span aria-hidden="true">&rarr;</span>
+        </button>
+      </form>
+      {% endif %}
+    </section>
+  </div>
+
+  <section class="records" aria-labelledby="franchisee-list-heading">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Directory</p>
+        <h2 id="franchisee-list-heading">Franchisees</h2>
+      </div>
+      <span class="count-badge">{{ franchisee_count }} registered</span>
+    </div>
+
+    {% if franchisees.is_empty() %}
+    <div class="empty-state">
+      <strong>No franchisees yet</strong>
+      <p>Use the form above to register the first one.</p>
+    </div>
+    {% else %}
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Franchisee</th>
+            <th scope="col">Stores</th>
+            <th scope="col">Registered</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for franchisee in franchisees %}
+          <tr>
+            <td>
+              <span class="cell-title">{{ franchisee.name }}</span>
+              <span class="cell-sub">{{ franchisee.email }}</span>
+            </td>
+            <td>
+              <span class="count-badge count-badge-soft">
+                {{ franchisee.store_count }} store{% if franchisee.store_count != 1 %}s{% endif %}
+              </span>
+            </td>
+            <td class="muted">{{ franchisee.registered_on() }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+  </section>
+
+  <section class="records" aria-labelledby="store-list-heading">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Footprint</p>
+        <h2 id="store-list-heading">Stores</h2>
+      </div>
+      <span class="count-badge">{{ store_count }} open</span>
+    </div>
+
+    {% if stores.is_empty() %}
+    <div class="empty-state">
+      <strong>No stores yet</strong>
+      <p>Once a franchisee is registered, open their first store above.</p>
+    </div>
+    {% else %}
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Store</th>
+            <th scope="col">Franchisee</th>
+            <th scope="col">Address</th>
+            <th scope="col">Opened</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for store in stores %}
+          <tr>
+            <td><span class="cell-title">{{ store.name }}</span></td>
+            <td>{{ store.franchisee_name }}</td>
+            <td class="muted">{{ store.address }}</td>
+            <td class="muted">{{ store.opened_on() }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+  </section>
+</main>
+{% endblock %}
